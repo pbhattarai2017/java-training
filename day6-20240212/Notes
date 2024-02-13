@@ -1,0 +1,92 @@
+
+
+
+
+            
+            Class constructor
+            -----------------
+            It is a special method to initialize an object
+            It is executed when we use 'new' keyword
+            It has the same name as the class
+            It makes the object setup easier
+            It also takes access modifiers
+
+            Wallet 
+                - amount (integer)
+                - username (String)
+                - addAmount()
+                - deductAmount()
+            
+            Each class has many fields(eg. amount, username) and behaviours(eg. addAmount, deductAmount)
+            Fields are nouns; behaviours are verbs
+            
+            
+            Animal(String name, int age) {
+                        
+            }
+            
+            // each behaviour of object is defined in separate
+            // method
+            
+            Animal(parameter-list) {
+                // constructor
+            }
+            
+            Animal dog = new Animal("name", age);
+            dog.name = 
+            dog.age = 
+            Animal cat = new Animal("cat",12);
+            dog & cat exist in memory 
+            
+        
+            Make sure the wallet has enough amount
+            when we deduct some money from it
+            
+            Tomorrow, we will look into:
+                - Overloading of methods
+                - Overloading of constructors
+            
+            Please be patient with the learning curve;
+            it will get easier as you practice.
+            
+            Any class will provide these methods by default:
+                - hashCode()
+                - toString()
+            Any class provides a default constructor if we
+            do not provide any.
+            
+            Any questions for today's session?
+            
+            TIPS:
+             - use PascalCase for class name
+             - use camelCase for fields and methods
+             - use nouns to describe field variables
+             - use verb-noun combination to describe method name
+             
+             
+             
+             
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            

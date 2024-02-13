@@ -1,0 +1,23 @@
+ 11         
+ 
+ 
+            Access Modifiers:
+			- 
+            - public
+            - private (accessible only from its class)
+            - protected (accessible within a package)
+            
+            
+    What is the difference between javac & java?
+    javac - compiler generates java bytecode
+    
+    java - jvm (java virtual machine) executes java bytecodes
+            
+    Violating access control generates compile error.
+ 
+            //Write a class                                               
+ 12         //Add some fields
+ 13         //Change access control to fields
+ 14         //Add some methods
+ 15         //Change access control to methods
+ 16         //

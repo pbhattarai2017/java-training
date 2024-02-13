@@ -1,0 +1,94 @@
+
+
+
+
+
+            Searching in array
+            Types of searching
+                - linear searching
+                    * check all elements of an array
+                - binary searching
+                    * needs a sorted array
+                    * check only few elements
+                    * faster than linear search
+
+        <data-type>[] <array-name> = new <data-type>[<size];
+        int[] numbers = new int[10];
+        numbers[0] = 5;
+        numbers[1] = 7;
+        numbers[2] = 11;
+        numbers[3] = 2;
+        numbers[4] = 1;
+        numbers[5] = 0;
+        numbers[6] = 8;
+        numbers[7] = 13;
+        numbers[8] = 23;
+        numbers[9] = 9;
+        
+        boolean found = false;
+        int searchValue = 100;
+         
+        // now, check if a number, for example, 7 is in array
+        for(int i = 0; i < 10; i ++) {
+            if(numbers[i] == searchValue) {
+                // when does it execute
+                found = true;
+                System.out.printf("found at %d index\n", i);
+            }
+        }
+        // if we know if-block didn't execute
+        // then print "Not found"
+        // if found == true; we know if-block executed
+        if(found == false) {
+            System.out.println("7 not found in array");
+        }
+        
+    Q. Print the number of times a given element is in array
+        
+        Explanation:
+        arr = {2,4,3,6,9,2,3,2,4,4,3,2};
+        
+        here, 2 repeats 4 times.
+        
+        //for each element in array; 
+        //      if element == searchValue
+        //          increment the count variable (count ++)
+        
+        // print the count variable
+    
+    Q. Find the sum of elements of an array.
+    
+        Explanation:
+        arr = {1, 2, 3, 4, 5};
+        
+        OUTPUT:
+        The sum is 15.
+
+    Q. Find the average of an array
+        int sum = 0;
+        float avg;
+        for(int i = 0; i < n; i ++) sum += arr[i];
+        avg = sum / (float) n;
+    Q. Find the largest element of an array.
+        int largest = arr[0];
+        for(int i = 0; i < n; i ++) {
+            if(arr[i] > largest) largest = arr[i];
+        }
+        
+    Q. Find the smallest element of an array.
+    Q. Find the range of an array
+Challenging Q. Find the nearest element of an array for given
+                number.
+        Explanation:
+        int[] arr = {3, 20, 34, 4, 50};
+    
+    Q. Find the modal value of an array
+    Q. Find the absolute value of a number
+    
+        
+        
+        
+        
+            
+            Binary Search (find a value in sorted array)
+            
