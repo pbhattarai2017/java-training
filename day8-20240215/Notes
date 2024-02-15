@@ -1,0 +1,24 @@
+
+
+
+
+
+Actual github link for notes repository
+https://github.com/pbhattarai2017/java-training
+
+Challenging Q.
+Find the nearest element of an array for given number 'n'.
+    Explanation:
+    int[] arr = {3, 20, 34, 4, 50}
+          diff = 19, 2, 12, 18, 28
+    n is not of array
+    Here, 20 is nearest to n
+    
+    Create an array by providing values using { 1, 3, ... }.
+    The size of array must be at least 10.
+    Put some negative integers as well.
+    
+    
+    
+    
+    
