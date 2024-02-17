@@ -1,5 +1,12 @@
 import os
+import sys
 import datetime
+
+def change_directory(new_path):
+    tmp_file_path = os.path.join('/tmp','output_command_for_easy_script')
+    fd = os.open(tmp_file_path, os.O_CREAT | os.O_RDWR)
+    os.write(fd, bytes(f'cd {new_path}', encoding='utf-8'))
+    os.close(fd)
 
 entries = os.listdir()
 
@@ -18,11 +25,15 @@ for entry in entries:
 today = int(datetime.datetime.strftime(datetime.datetime.now(), "%Y%m%d"))
 #today = 20240214
 
+new_path = ''
+
 if most_recent_date == today:
     # cd to directory
-    print(f'cd day{most_recent_day}-{most_recent_date}')
+    new_path = f'day{most_recent_day}-{most_recent_date}'
 else:
     # create a directory and cd
     dirpath = f'day{most_recent_day + 1}-{today}'
     os.mkdir(dirpath)
-    print(f'cd {dirpath}')
+    new_path = dirpath
+ 
+change_directory(new_path)
