@@ -1,0 +1,44 @@
+
+
+
+
+
+Multi-dimensional array in Java
+
+    An array is called multi-dimensional if
+        - array has multi-indexes to refer to single element
+    
+    int[][] arr = new int[size1][size2];   2-D
+    int[][][] arr = new int[][][]      ;   3-D
+    
+    
+    Q. Create a multi-dimensional array to store the
+        coefficients of the simultaneous system
+            2x + 5y = 4
+            // 2x + 5y -4 = 0
+            7x - 9y = 1
+       Here, coefficients are
+            2   5   -4
+            7  -9   -1
+              
+       int[][] arr = {{2,5,-4},{7,-9,-1}};
+       
+       Here, arr[0][2] = -4
+       
+    Q   // print the matrix in the same format as 
+            2   5  -4
+            7  -9  -1
+        Nested loop is needed for this problem.
+        
+    Q.  Ask two 2x2 matrix from user and print the
+        sum of the matrix.
+        
+        |1   2|   |3   4|   |4   6|
+        |3   4| + |5   6| = |8  10|
+        
+        What is the sum of this matrix? Invalid question
+        |1  2|
+        |3  4|
+    
+    Q. Get two matrices from user and print their 
+        multiplication.
