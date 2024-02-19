@@ -1,0 +1,85 @@
+
+
+
+
+Practice session
+
+https://projecteuler.net
+
+Q. Find the HCF of two positive integers e.g. 10,15 = 5;
+Q. Find the LCM of two positive integers e.g. 10,15 = 
+Q. Find the factorial of a given number
+Q. Find the first 'n' prime numbers 
+
+233168
+
+Projecteuler.1
+3 + 5 + 6 + 9 + 10 + 12 + 15 = 
+Pseudocode solution
+-------------------
+for every number 'n' between [1, 9]
+    if 'n' exactly divides 3 or 'n' exactly divides 5
+        add 'n' to sum
+print the sum        
+-------------------
+int sum = 0;
+for(int n = 1; n < 10; n ++) {
+    if(n % 3 == 0 || n % ) {
+        sum = sum + n;
+    }
+}
+
+1,2,3...,1000 
+
+If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+let a = 1
+let b = 2
+let c = a + b
+for every new term 'c' that is less than or equal to 4Million
+    if 2 exactly divides 'c'
+        add 'c' to sum
+    REM generate next fibonacci term
+    a = b
+    b = c
+    c = a + b
+print sum
+
+Q. HCF of a, b = largest integer that can divide both a & b.
+
+    let limit = min(a,b)
+    let hcf = 1
+    for every integer 'n' between [1, limit]
+        if n|a and n|b     HERE: n|a means a % n == 0
+            hcf = n
+    print(hcf)
+    
+    let lcm = (a * b) / hcf
+    print lcm
+    
+Q. LCM of a, b = smallest integer 'n' where
+    n = ax
+    n = by
+    
+    Explanation: 9 & 12
+    Multiples of 9: 9, 18, 27, 36, 45, ...
+    Multiples of 12: 12, 24, 36, 48, ...
+    Here, n = 36, x = 4, y = 3
+    But x & y can be any integers, x need not equal to y.
+    
+    Shortcut formula for LCM: (a * b) / hcf(a,b)
+
+Q. Calculate LCM without using HCF value.
+
+Q. Create a method/function for hcf(a,b)
+    Method name: hcf
+    Parameters: int a, int b
+    Description: calculates the hcf of given two integers 
+    Returns: int
+    
+    public static int hcf(int a, int b) {   
+        
+    }
