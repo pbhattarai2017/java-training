@@ -1,0 +1,22 @@
+
+
+
+
+Creating various methods
+
+
+Create various methods to for logging
+
+logInfo("a = 5") should print "INFO: a = 5"
+    
+logError("value not found") should print "ERROR: value not found"
+        
+logVerbatim("No special formatting") should print "No special formatting"
+
+<return-type> <method-name>(<parameter-list>) {
+    <method-body>
+    
+    [<return-statement>]
+}
+
+
