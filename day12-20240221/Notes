@@ -1,0 +1,36 @@
+
+
+
+
+To create a package:
+    - make a package directory
+    - if your package has sub-packages; create sub-directories accordingly
+    - add *.java files to it
+    - make sure all *.java files begins with 'package <package-name>';
+
+To use a package
+    - import packge by qualifying path
+
+
+Let's continue with creating library methods
+Also called packages in java
+
+    - create min() method that
+        -- accepts any number of arguments
+        -- returns the smallest element
+        
+
+Let's create this package structure:
+
+jtc
+ - Math.java
+ - Str.java
+
+Q. Check if the string is palindrome
+
+    Get a word/string from user                                         
+    print "Is palindrome" if the word is palindromic
+    print "Is not palindrome" otherwise
+    
+    Str.java (isPalindrome) method 
+    import jtc.Str;
