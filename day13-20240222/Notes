@@ -1,0 +1,28 @@
+
+
+
+
+Alternative way of searching
+    - faster
+    
+Create a method
+    method name: linearSearch(int[] arr, int searchKey)
+    first parameter : int[] arr (search space)
+    second parameter : int searchKey (value to search)
+    returns : corresponding index of matching element
+              if not found; return -1
+
+              
+    
+    
+            SearchKey = 80
+    
+    10, 27, 32, 40, 60, 79, 110, 150, 164              
+              
+    int midValue = arr[arr.length / 2];
+              
+              
+              
+              
+              
+              
