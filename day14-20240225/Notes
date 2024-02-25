@@ -1,0 +1,25 @@
+
+
+    Binary search
+    -------------
+    - it is faster than linear search
+    - but it works only on sorted data
+    - binary search divides the array into halves until only one element is left
+	- Algorithmic complexity: O(log(N))
+
+    
+    Connect to Nepathyacollege_2.4 (pass: nepathya123)
+    &
+    Browse http://192.168.1.93:8000
+    &
+    Download day14-20240225.zip
+    &
+    Decompress the zip file
+    &
+    Open the day14-20240225 folder in vscode
+    
+    
+
+
+
+    
