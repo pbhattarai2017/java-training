@@ -1,0 +1,29 @@
+hello
+ - 
+ 
+ 
+ 
+ 
+Q.1 Create a method that returns 'true' if integer is divisible by
+    3 and 7 
+    or
+    returns 'false' otherwise
+    
+    smallest integer that is divisible by both 3 & 7: 21
+        
+        isDivisible(21) -> true
+        isDivisible(7) -> false
+Q.2 Create a method to return the reversed string of given string.
+        
+        System.out.println(reverseString("hello"));   "hello"
+ 
+Q.3 Create a method to return the reverse integer of given integer
+ 
+Q.4 Create a method to calculate the square root of a number
+
+Q.5 
+
+
+
+
+
