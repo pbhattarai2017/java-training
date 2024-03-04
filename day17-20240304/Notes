@@ -5,15 +5,68 @@ Practice the following questions:
 
 Create method to check if an object of a class is null
     
-    Object 
+    Website website;
+    
+    Website website_another = new Website();
+    
+    website_another
+    
+    website == null
+    
+    Object
+    
+    isObjectNull(object) -> true if object is not null
 
+                        -> false otherwise
+                        
+Create a method to count all words in a sentence.
+
+    public static int wordCount(String sentence) {
+        int count = 1;
+        
+        for(int i = 0; i < sentence.length(); i ++) {
+            if(sentence.charAt(i) == ' ') {
+                count ++;
+            }
+        }
+        
+        return count;
+    }
+    
+    hello world bye world = 4
+    
+    hello.world = 2
+    
+    int a=5; (tokens)
+  
+Check whether a string is a valid java identifier
+    rules of identifier:
+        - begins with an alphabet
+        - contains only digits, alphabets & underscores
+
+    create these two methods for this problem
+        - isAlphabet()
+        - isDigit()
+        
+        boolean isDigit(char c) {
+            if(c == '0' || c == '1' || ...) 
+            return true;
+            else return false;
+        }
+        
+        boolean isAlphabet(char c) {
+            A=65, B=66, ...
+            
+        }
+        
 Create a method to generate first 100 prime numbers
 
 Create a method to find binary equivalent of an integer
 
-Create a method to capitalize each words of a sentence
+Create A Method To Capitalize Each Words Of A Sentence
 
 Create a method to cipher text using ROT13
 
-    Example: 'a' -> 'n'
+    Example: 'a' -> 'n' -> 'a'
+    'hello' -> '
             
